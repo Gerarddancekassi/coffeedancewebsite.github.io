@@ -1,0 +1,76 @@
+
+html{
+    top: 0;
+    background-color: #efe3de;
+    padding: 0 200px 0 200px;
+}
+
+
+#navigation {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,0);
+    top: 0;
+    background-color: #ebc999;
+    text-align: center;
+    width: 100%;
+}
+#navigation ul {
+    margin: 0 auto;
+    padding: 0 auto;
+    list-style: none;
+}
+#navigation li{
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 600;
+    font-size: 50px;
+    width: 200px;
+
+    
+}
+
+#navigation ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: .3s background-color;
+    padding: 50px;
+  }
+ 
+#title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 100px;
+    color: #f8f8ff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("https://img.freepik.com/free-photo/coffee-beans-top-view-white-background-space-text_176474-5028.jpg?w=2000");
+    width: 100%;
+    border-radius: 5px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+}
+
+#companypr .whoarewe{
+    text-align: center;
+    padding-top: 30px;
+
+}
+#companypr p{
+    text-align: left;
+    padding: 0 300px 0 300px;
+}
+#anotherbox{
+    position:sticky;
+    z-index: 1;
+    background-color:#efe3de ;
+    border-radius: 5px;
+}
